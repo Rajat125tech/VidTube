@@ -85,7 +85,7 @@ vidtube/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/...
+git clone https://github.com/Rajat125tech/VidTube
 cd vidtube
 ```
 ### 2. Install dependencies
