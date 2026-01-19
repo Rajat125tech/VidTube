@@ -42,9 +42,21 @@ real-world backend best practices.
 ---
 
 ## 📁 Project Structure
-
-
-
+```text
+vidtube/
+├── controllers/        # Business logic for each route
+├── db/                 # Database connection and configuration
+├── middlewares/        # Authentication & error handling
+├── models/             # Mongoose schemas
+├── routes/             # API route definitions
+├── utils/              # Utility / helper functions
+│
+├── .env                # Environment variables
+├── .env.sample         # Sample environment configuration
+├── app.js              # Express app setup
+├── constants.js        # Centralized constants
+├── index.js            # Server entry point
+```
 ---
 
 ## 🔗 API Capabilities
